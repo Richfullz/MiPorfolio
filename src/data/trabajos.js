@@ -1,6 +1,6 @@
 export const trabajos = [
   {
-    id: "dados",
+    id: "Dados",
     nombre: "Dados",
     url: "https://github.com/Richfullz/Dados",
     tecnologias: "HTML5, CSS3, JS",
@@ -8,7 +8,7 @@ export const trabajos = [
     descripcion: "Juego de adivinar donde esta el dado",
   },
   {
-    id: "filmSpot",
+    id: "FilmSpot",
     nombre: "FilmSpot",
     url: "https://github.com/Richfullz/FilmSpot",
     tecnologias: "HTML5, CSS3, JS, React",
@@ -16,7 +16,7 @@ export const trabajos = [
     descripcion: "Biblioteca de cine",
   },
   {
-    id: "skyExpress",
+    id: "SkyExpress",
     nombre: "SkyExpress",
     url: "https://github.com/Richfullz/SkyExpress",
     tecnologias: "HTML5, CSS3, JS",
@@ -24,7 +24,7 @@ export const trabajos = [
     descripcion: "Aplicación del tiempo",
   },
   {
-    id: "rideNRoll",
+    id: "RideNRoll",
     nombre: "Ride-N-Roll",
     url: "https://github.com/Richfullz/Ride-N-Roll",
     tecnologias: "HTML5, CSS3",
@@ -32,7 +32,7 @@ export const trabajos = [
     descripcion: "Pagina empresa creadora de eventos de rallys",
   },
   {
-    id: "cafeteriaSerrano",
+    id: "CafeteriaSerrano",
     nombre: "Cafeteria Serrano",
     url: "https://github.com/Richfullz/cafeteria-serrano",
     tecnologias: "HTML5, CSS3",
@@ -40,7 +40,7 @@ export const trabajos = [
     descripcion: "Cafeteria Serrano",
   },
   {
-    id: "hogarElegante",
+    id: "HogarElegante",
     nombre: "Hogar Elegante",
     url: "https://github.com/Richfullz/HogarElegante",
     tecnologias: "HTML5, CSS3, JS",
