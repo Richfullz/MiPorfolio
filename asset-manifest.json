@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Richfullz.github.io/store/static/css/main.8192affe.css",
+    "main.js": "/Richfullz.github.io/store/static/js/main.0dd1ca7f.js",
+    "index.html": "/Richfullz.github.io/store/index.html",
+    "main.8192affe.css.map": "/Richfullz.github.io/store/static/css/main.8192affe.css.map",
+    "main.0dd1ca7f.js.map": "/Richfullz.github.io/store/static/js/main.0dd1ca7f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8192affe.css",
+    "static/js/main.0dd1ca7f.js"
+  ]
+}
