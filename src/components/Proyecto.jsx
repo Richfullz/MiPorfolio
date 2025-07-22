@@ -15,10 +15,7 @@ export const Proyecto = () => {
   return (
     <div className="page page-work">
       <div className="mask">
-        <img
-          src={`${process.env.PUBLIC_URL}/images/${proyecto.id}.png`}
-          alt={proyecto.nombre}
-        />
+        <img src={"/images/" + proyecto.id + ".png"} />
       </div>
       <div className="description">
         <h1 className="heading">{proyecto.nombre}</h1>
