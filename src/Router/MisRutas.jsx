@@ -12,7 +12,7 @@ import { Footer } from "../layout/Footer";
 export const MisRutas = () => {
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename="/MiPorfolio">
         {/* Header Navegacion */}
         <HeaderNav />
         {/* Contenido Central */}
