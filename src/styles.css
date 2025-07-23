@@ -292,3 +292,44 @@ button:hover {
   background: #fafaff;
   transition: 300ms all;
 }
+
+/*  */
+/* Diseño de la sección de servicios con grid responsive */
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+  padding: 0 1.5rem;
+}
+
+/* Tarjeta individual de servicio */
+.service-card {
+  background-color: #fff;
+  border: 2px solid #e6e6e6;
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: left;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.service-card:hover {
+  box-shadow: 0 10px 30px rgba(144, 12, 63, 0.25);
+  transform: translateY(-5px);
+}
+
+/* Títulos de los servicios */
+.service-card h2 {
+  font-size: 1.4rem;
+  color: #900c3f;
+  margin-bottom: 0.8rem;
+  font-weight: bold;
+}
+
+/* Párrafos dentro de la tarjeta */
+.service-card p {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.6;
+}
