@@ -18,8 +18,8 @@ export const Curriculum = () => {
             <strong>Desarrollo de paginas web</strong> mediante APIs RESTful.
           </li>
           <li>
-            <strong>Participación</strong> en proyectos prácticos
-            aplicandometodologías ágiles, <strong>trabajo en equipo.</strong>
+            <strong>Participación</strong> en proyectos prácticos aplicando
+            metodologías ágiles, <strong>trabajo en equipo.</strong>
           </li>
           <li>
             <strong>Enfoque</strong> en la <strong>resolución</strong> de
@@ -34,7 +34,7 @@ export const Curriculum = () => {
             <strong> ágiles</strong> (scrum)
           </li>
         </ul>
-        <h4>TECNOLOGIAS: Full-Stack MERN (MongoDB, Express, React, Node.js)</h4>
+        <h4>TECNOLOGIAS: Full Stack MERN (MongoDB, Express, React, Node.js)</h4>
         <h3>Proyectos Personales</h3>
         <div className="proyectos-personales">
           {trabajos
@@ -84,7 +84,7 @@ export const Curriculum = () => {
           <h3>Desarrollo Web - ViveFormación</h3>
           <h3>2021</h3>
           <li>
-            560 horas de <strong>formación intensiva</strong> de desarrollo web
+            560 horas de <strong>formación intensiva</strong> de Desarrollo Web
           </li>
           <li>
             <strong>Construcción</strong> de paginas Web
