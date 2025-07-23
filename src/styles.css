@@ -338,3 +338,7 @@ button:hover {
   color: #444;
   line-height: 1.6;
 }
+
+strong {
+  color: #900c3f;
+}
