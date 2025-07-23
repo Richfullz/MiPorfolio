@@ -25,7 +25,7 @@ export const trabajos = [
   },
   {
     id: "RideNRoll",
-    nombre: "Ride-N-Roll",
+    nombre: "RideNRoll",
     url: "https://github.com/Richfullz/Ride-N-Roll",
     tecnologias: "HTML5, CSS3",
     categorias: "Desarrollo Web",
@@ -33,7 +33,7 @@ export const trabajos = [
   },
   {
     id: "CafeteriaSerrano",
-    nombre: "Cafeteria Serrano",
+    nombre: "CafeteriaSerrano",
     url: "https://github.com/Richfullz/cafeteria-serrano",
     tecnologias: "HTML5, CSS3",
     categorias: "Desarrollo Web",
@@ -41,7 +41,7 @@ export const trabajos = [
   },
   {
     id: "HogarElegante",
-    nombre: "Hogar Elegante",
+    nombre: "HogarElegante",
     url: "https://github.com/Richfullz/HogarElegante",
     tecnologias: "HTML5, CSS3, JS",
     categorias: "Desarrollo Web",
