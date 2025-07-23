@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { trabajos } from "../data/trabajos";
 
 export const Curriculum = () => {
   return (
@@ -40,21 +41,25 @@ export const Curriculum = () => {
         </ul>
         <h4>MERN (MongoDB, Express, React, Node.js)</h4>
         <h3>Proyectos Personales</h3>
-        <ul>
-          <h3>Cafetería Serrano</h3>
-          <p>
-            Cafeteria online.
-            <br />
-            Tecnologías: React, CSS, MongoDB, Node.js.
-          </p>
+        <div className="proyectos-personales">
+          {trabajos
+            .filter((trabajo) =>
+              ["CafeteriaSerrano", "HogarElegante"].includes(trabajo.id)
+            )
+            .map((proyecto) => (
+              <div key={proyecto.id} className="proyecto-item">
+                <img
+                  src={`${process.env.PUBLIC_URL}/images/${proyecto.id}.png`}
+                  alt={proyecto.nombre}
+                  className="img-proyecto-personal"
+                />
+                <h4>{proyecto.nombre}</h4>
+                <p>{proyecto.descripcion}</p>
+                <p>Tecnologías: {proyecto.tecnologias}</p>
+              </div>
+            ))}
+        </div>
 
-          <h3>Hogar Elegante</h3>
-          <p>
-            Tienda de administración de propiedades de muebles para el hogar.
-            <br />
-            Tecnologías: React, Express, MongoDB.
-          </p>
-        </ul>
         {/*  */}
         <hr />
         <ul>
@@ -91,20 +96,24 @@ export const Curriculum = () => {
         </ul>
         <h4>HTML5, CSS, JavaScript, Node, Express</h4>
         <h3>Proyectos Personales</h3>
-        <ul>
-          <h3>SkyExpress</h3>
-          <p>
-            Aplicacion del tiempo gestionada con los datos gratuitos de
-            weatherapi.
-          </p>
-          <p>Tecnologías: HTML5, CSS3, Node, Express</p>
-          <h3>Ride N`Roll</h3>
-          <p>Empresa de deportes de Rallys donde se gestionan eventos</p>
-          <p>Tecnologías: HTML5,CSS3</p>
-          <h3>Dados</h3>
-          <p>Juego de adivinar donde esta el dado dentro de los 3 cubos</p>
-          <p>Tecnologías: HTML5, CSS3, JavaScript</p>
-        </ul>
+        <div className="proyectos-personales">
+          {trabajos
+            .filter((trabajo) =>
+              ["SkyExpress", "RideNRoll", "Dados"].includes(trabajo.id)
+            )
+            .map((proyecto) => (
+              <div key={proyecto.id} className="proyecto-item">
+                <img
+                  src={`${process.env.PUBLIC_URL}/images/${proyecto.id}.png`}
+                  alt={proyecto.nombre}
+                  className="img-proyecto-personal"
+                />
+                <h4>{proyecto.nombre}</h4>
+                <p>{proyecto.descripcion}</p>
+                <p>Tecnologías: {proyecto.tecnologias}</p>
+              </div>
+            ))}
+        </div>
         {/*  */}
       </div>
     </>
