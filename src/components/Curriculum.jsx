@@ -66,9 +66,9 @@ export const Curriculum = () => {
           <h2>Desarrollo Web - Estudio 27</h2>
           <h3>2022</h3>
           <li>Diseño de plantillas a demanda del cliente</li>
+          <li>Análisis y Posicionamiento en SEO, redactando artículos,</li>
           <li>
-            Análisis y Posicionamiento en SEO, redactando artículosManejo de
-            tecnologías: Wordpress, PrestaShop,posicionamiento en Seo
+            Manejo de tecnologías: Wordpress, PrestaShop, Posicionamiento en Seo
           </li>
         </ul>
         <h4>Wordpress, Prestashop, HTML5, CSS3, Posicionamiento en SEO</h4>
@@ -76,7 +76,7 @@ export const Curriculum = () => {
         <ul>
           <h3>Visita las catedrales</h3>
           <p>
-            Pagina informativa sobre la playa de las catedrales. <br />
+            Pagina informativa sobre la Playa De Las Catedrales. <br />
             Lugo, Galicia
           </p>
           <p>Tecnologías: Wordpress</p>
