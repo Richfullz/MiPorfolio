@@ -275,6 +275,11 @@ button:hover {
   transition: 300ms all;
 }
 /*  */
+.info-contacto h3 {
+  font-size: 25px;
+  letter-spacing: 3px;
+  font-weight: 500;
+}
 .info-contacto li {
   font-size: 22px;
   letter-spacing: 1px;
@@ -282,7 +287,7 @@ button:hover {
 .info-contacto li a {
   text-decoration: none;
   color: black;
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 1px;
   font-weight: 600;
 }
